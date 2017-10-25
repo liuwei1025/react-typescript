@@ -89,7 +89,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            title: '功率预测管理平台',
+            title: 'Hello react+ts',
             inject: false,
             minify: {
                 removeComments: true,
