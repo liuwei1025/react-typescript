@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --progress --colors -p -d",
     "copy":"node ./scripts/copy.js"
   },
-  "author": "",
+  "author": "Feliks",
   "license": "ISC",
   "dependencies": {
     "antd": "^2.13.6",
