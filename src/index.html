@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title><%=htmlWebpackPlugin.options.title%></title>
+        <link href="./src/assets/images/favicon.ico" rel="shortcut icon">
+        <% for (var css in htmlWebpackPlugin.files.css) { %>
+            <link href="<%=htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+            <% } %>
+    </head>
+    <body>
+        <div id="app" class="app"></div>
+
+        <!-- Dependencies -->
+        <script src="../dist/lib/react.min.js"></script>
+        <script src="../dist/lib/react-dom.min.js"></script>
+
+        <!-- Main -->
+        <!-- <script src="./dist/bundle.js"></script> -->
+        <% for (var chunk in htmlWebpackPlugin.files.chunks) {%>
+            <script src="<%=htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+            <% } %>
+    </body>
+</html>

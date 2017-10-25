@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es6",
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": false,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "es5", 
+            "dom",
+            "dom.iterable",
+            "es2015"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
