@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --progress --colors",
     "dev": "webpack-dev-server --progress --colors -p -d",
-    "copy":"node ./scripts/copy.js"
+    "copy": "node ./scripts/copy.js"
   },
   "author": "Feliks",
   "license": "ISC",
@@ -18,7 +18,9 @@
     "react-dom": "^15.5.4",
     "react-hot-loader": "^3.1.1",
     "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "typescript": "^2.6.1",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^8.0.34",
